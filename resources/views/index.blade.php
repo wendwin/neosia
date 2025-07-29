@@ -8,5 +8,6 @@
         @include('components.landingpage.why')
         @include('components.landingpage.client')
         @include('components.landingpage.program')
+        @include('components.landingpage.team')
     </div>
 @endsection

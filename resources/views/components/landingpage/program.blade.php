@@ -1,9 +1,9 @@
-<div class="relative w-full bg-sec-grey text-white px-4">
+<div class="relative w-full bg-sec-grey text-white px-4 py-12">
     {{-- <div class="absolute top-0 left-[50%]  flex flex-col justify-center h-1 w-[200px] bg-sec-yellow"></div> --}}
-    <h1 class="p-4 py-8 text-center font-medium text-xl md:text-2xl">Explore Our Programs</h1>
+    <h1 class="p-4 mb-8 text-center font-medium text-xl md:text-2xl">Explore Our Programs</h1>
 
     <!-- card program -->
-    <div class="flex gap-4 md:gap-5 lg:gap-8 justify-center flex-nowrap pb-4">
+    <div class="flex gap-4 md:gap-5 lg:gap-8 justify-center flex-wrap">
         @foreach (range(1, 3) as $index)
             <div class="flex-shrink-0 hover:scale-105 transition duration-300 ease-in-out">
                 <div class=" rounded-lg shadow-xs bg-sec-gray5  min-w-64 md:max-w-72">
