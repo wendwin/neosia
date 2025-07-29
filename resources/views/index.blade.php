@@ -6,5 +6,6 @@
         @include('components.landingpage.infobar')
         @include('components.landingpage.brand')
         @include('components.landingpage.why')
+        @include('components.landingpage.client')
     </div>
 @endsection
