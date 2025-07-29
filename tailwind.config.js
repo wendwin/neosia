@@ -13,6 +13,7 @@ export default {
         'sec-gray2': '#A1A1A1',
         'sec-gray3': '#1B1B1B',
         'sec-gray4': '#222222',
+        'sec-gray5': '#161616',
         'sec-yellow': '#FFB71A',
         'sec-white': '#F2F4F0',
       },
