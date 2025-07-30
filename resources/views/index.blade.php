@@ -10,5 +10,6 @@
         @include('components.landingpage.program')
         @include('components.landingpage.team')
         @include('components.landingpage.event')
+        @include('components.landingpage.comment')
     </div>
 @endsection
