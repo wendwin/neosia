@@ -11,5 +11,6 @@
         @include('components.landingpage.team')
         @include('components.landingpage.event')
         @include('components.landingpage.comment')
+        @include('components.landingpage.news')
     </div>
 @endsection
