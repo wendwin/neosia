@@ -2,7 +2,7 @@
     <h1 class="mb-12 text-center font-medium text-xl md:text-2xl lg:text-3xl">Check out our latest news</h1>
 
     <!-- card program -->
-    <div class="flex flex-wrap gap-0 md:gap-5 lg:gap-8 justify-center">
+    <div class="flex flex-wrap gap-0 md:gap-5 lg:gap-8 justify-center overflow-hidden">
         @foreach (range(1, 4) as $index)
             <div
                 class="flex items-center  border-b border-gray-600 md:border-none md:rounded-xl shadow-sm md:flex-row md:max-w-sm lg:max-w-xl  hover:bg-sec-gray4 bg-sec-gray5">

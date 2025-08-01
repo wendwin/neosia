@@ -3,7 +3,7 @@
     <p class="mb-12 text-center">Etiam porttitor risus massa nec condiment gravida</p>
 
     <!-- card program -->
-    <div class="flex flex-wrap gap-4 md:gap-5 lg:gap-8 justify-center pb-4">
+    {{-- <div class="flex flex-wrap gap-4 md:gap-5 lg:gap-8 justify-center pb-4">
         @foreach (range(1, 4) as $index)
             <div class=" hover:scale-105 transition duration-300 ease-in-out">
                 <div class="rounded-2xl shadow-xs bg-sec-gray5  min-w-64 md:max-w-72">
@@ -18,5 +18,23 @@
                 </div>
             </div>
         @endforeach
-    </div>
+    </div> --}}
+
+    <div class="flex flex-wrap gap-4 md:gap-5 lg:gap-8 justify-center pb-4">
+    @foreach (range(1, 4) as $index)
+        <div class="hover:scale-105 transition duration-300 ease-in-out">
+            <div class="w-[85vw] max-w-[18rem] md:max-w-64 rounded-2xl shadow-xs bg-sec-gray5">
+                <img alt="" src="{{ asset('img/team/team-' . $index .'.png') }}"
+                    class="h-52 w-full rounded-2xl object-cover" />
+
+                <div class="mt-2 p-3 md:p-5 text-center">
+                    <h3 class="font-semibold text-sm mb-5">Mummayyis Pramono</h3>
+                    <p class="text-xs leading-5">Technical Trainer</p>
+                    <p class="text-xs leading-5">CAD/CAM/CAE Specialist</p>
+                </div>
+            </div>
+        </div>
+    @endforeach
+</div>
+
 </div>
