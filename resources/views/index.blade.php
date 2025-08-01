@@ -9,5 +9,9 @@
         @include('components.landingpage.client')
         @include('components.landingpage.program')
         @include('components.landingpage.team')
+        @include('components.landingpage.event')
+        @include('components.landingpage.comment')
+        @include('components.landingpage.news')
+        @include('components.landingpage.question')
     </div>
 @endsection
