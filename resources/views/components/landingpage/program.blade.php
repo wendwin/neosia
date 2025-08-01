@@ -5,48 +5,55 @@
     <!-- card program -->
     <div class="flex gap-4 md:gap-5 lg:gap-8 justify-center flex-wrap">
         @foreach (range(1, 3) as $index)
-            <div class="flex-shrink-0 hover:scale-105 transition duration-300 ease-in-out">
-                <div class=" rounded-lg shadow-xs bg-sec-gray5  min-w-64 md:max-w-72">
+            <div
+                class="flex-shrink-0 hover:scale-105 transition duration-300 ease-in-out w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-2 mb-6">
+                <div class="rounded-lg shadow-md bg-sec-gray5 w-full h-full flex flex-col">
                     <div class="relative">
                         <img alt="" src="{{ asset('img/program/program.png') }}"
-                            class="h-52 w-full rounded-md object-cover" />
-                        <div
-                            class="px-3 py-2 text-white text-xs rounded-full items-center bg-blue-600 absolute top-4 right-2">
+                            class="h-48 sm:h-52 w-full rounded-t-lg object-cover" />
+                        <div class="px-3 py-1 text-white text-xs rounded-full bg-blue-600 absolute top-3 right-3">
                             Rp. 90.000
                         </div>
                     </div>
 
-                    <div class="mt-2 p-3 md:p-5">
-                        <h3 class="font-semibold text-sm mb-5">SolidWorks Certification Program</h3>
-                        <p class="text-xs leading-5">Master the fundamentals of aerospace simulation and design</p>
+                    <div class="flex-grow flex flex-col justify-between p-4 sm:p-5">
+                        <div>
+                            <h3 class="font-semibold text-base mb-3">SolidWorks Certification Program</h3>
+                            <p class="text-xs sm:text-sm leading-5">Master the fundamentals of aerospace simulation and
+                                design</p>
+                        </div>
 
-                        <div class="mt-6 md:flex justify-between items-center text-xs">
-                            <div class="mb-4 md:mb-0">
-                                <ion-icon name="time"></ion-icon> 12 Week
+                        <div
+                            class="mt-4 sm:mt-6 flex flex-col sm:flex-row sm:justify-between sm:items-center text-xs gap-2 sm:gap-0">
+                            <div class="flex items-center gap-1">
+                                <ion-icon name="time"></ion-icon>
+                                <span>12 Week</span>
                             </div>
-                            <div class="flex gap-3">
-                                <div class="mb-4 md:mb-0">
-                                    <ion-icon name="star" class="text-amber-400"></ion-icon> 4,9
+                            <div class="flex gap-3 items-center">
+                                <div class="flex items-center gap-1">
+                                    <ion-icon name="star" class="text-amber-400"></ion-icon>
+                                    <span>4,9</span>
                                 </div>
-                                <div>
-                                    <ion-icon name="people"></ion-icon> 1,200 Students
+                                <div class="flex items-center gap-1">
+                                    <ion-icon name="people"></ion-icon>
+                                    <span>1,200 Students</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="mt-6 flex flex-col gap-3">
-                            <a href="#" class="">
+
+                        <div class="mt-5 flex flex-col gap-2">
+                            <a href="#">
                                 <div
-                                    class="rounded-md bg-yellow-400 px-6  py-2 font-medium text-black transition text-sm hover:bg-yellow-300 flex items-center gap-2 justify-center">
+                                    class="rounded-md bg-yellow-400 px-6 py-2 font-medium text-black text-sm hover:bg-yellow-300 flex items-center gap-2 justify-center transition">
                                     <p>Download Brochure</p>
                                     <ion-icon name="arrow-down-outline"></ion-icon>
                                 </div>
                             </a>
                             <a href="#"
-                                class="rounded-md bg-sec-gray3 px-6 py-2 font-medium text-white border border-white transition text-sm hover:bg-white hover:text-black text-center">
+                                class="rounded-md bg-sec-gray3 px-6 py-2 font-medium text-white border border-white text-sm hover:bg-white hover:text-black text-center transition">
                                 Read More
                             </a>
                         </div>
-
                     </div>
                 </div>
             </div>

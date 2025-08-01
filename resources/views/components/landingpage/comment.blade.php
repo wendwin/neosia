@@ -12,17 +12,19 @@
             <div class="flex transition-transform duration-500 ease-in-out" style="transform: translateX(0%)"
                 data-carousel-track>
                 @foreach ($slides as $index)
-                    <div class="min-w-full text-center  bg-sec-grey shadow-md rounded-lg relative pb-8">
-                        <img src="{{ asset('img/team/team-' . $index . '.png') }}" alt="Gambar {{ $index }}"
-                            class="w-auto h-44 lg:h-64 object-cover rounded-md absolute -top-32 left-1/2 -translate-x-1/2">
+                    <div
+                        class="min-w-full bg-sec-grey shadow-md rounded-lg relative flex flex-col items-center pt-28 pb-8 px-6">
+                        <img src="{{ asset('img/team/team-' . $index . '.png') }}" alt=""
+                            class="w-24 h-24 object-cover rounded-full border-4 border-white shadow-lg absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2" />
 
-                        <div class="max-w-sm px-10">
-                            <p class="text-sec-white my-4 text-sm mt-20">Simply the best. Better than all the rest. I’d
-                                recommend this
-                                product to morish beginners andviverra maecenas accumsan lacus. Risus commodo viverra
-                                maecenas.</p>
-                            <h2 class="text-sm md:text-base font-semibold mb-1">Judy N</h2>
-                            <h6 class="text-xs md:text-sm ">CEO, Psdboss</h6>
+                        <div class="max-w-sm text-center">
+                            <p class="text-sec-white my-4 text-sm leading-relaxed">
+                                Simply the best. Better than all the rest. I’d recommend this product to morish
+                                beginners and viverra
+                                maecenas accumsan lacus. Risus commodo viverra maecenas.
+                            </p>
+                            <h2 class="text-sm font-semibold mb-1">Judy N</h2>
+                            <h6 class="text-xs">CEO, Psdboss</h6>
                         </div>
                     </div>
                 @endforeach
