@@ -26,7 +26,7 @@
                         <div class="relative group">
                             <a href="#" id="dropdownHoverButton"
                                 class="rounded-full px-3 py-2 text-sm font-medium flex items-center gap-1
-                                {{ request()->routeIs('Courses') ? 'text-sec-yellow' : 'text-sec-white' }}">
+                                {{ request()->routeIs('courses') ? 'text-sec-yellow' : 'text-sec-white' }}">
                                 Courses
                                 <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                                     fill="none" viewBox="0 0 10 6">
