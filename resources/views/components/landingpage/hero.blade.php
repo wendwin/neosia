@@ -1,4 +1,4 @@
-<div class="w-full min-h-screen bg-primary px-5 py-10">
+<div class="w-full bg-primary px-5 py-10">
     <!-- Search dan Dropdown -->
     <div class="max-w-2xl mx-auto flex  items-center justify-between gap-4 mb-12">
         <!-- Search Box -->
@@ -32,7 +32,7 @@
     </div>
 
     <!-- Hero Content -->
-    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-12">
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-12 mb-8">
         <!-- Image -->
         <div class="flex justify-center md:order-2">
             <img src="{{ asset('img/hero.png') }}" alt="hero" class="w-full max-w-md object-contain" />
@@ -40,7 +40,7 @@
 
         <!-- Text -->
         <div class="md:order-1">
-            <h1 class="text- text-white lg:text-5xl font-bold mb-6 leading-tight">
+            <h1 class="text-2xl text-white lg:text-5xl font-bold mb-6 leading-tight">
                 Unlock Your Potential with <br />
                 <span class="text-yellow-400">Neosia Training Center</span>
             </h1>
