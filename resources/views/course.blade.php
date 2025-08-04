@@ -3,5 +3,6 @@
 @section('content')
     <div class="">
         @include('components.course.hero')
+        @include('components.course.exploreCourse')
     </div>
 @endsection
