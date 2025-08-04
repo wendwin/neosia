@@ -7,6 +7,13 @@ Route::get('/', function () {
 })->name('home');
 
 Route::get('/course', function () {
+    $categories = [];
+    for ($i = 1; $i <= 10; $i++) {
+        $categories[] = [
+            "title" => "Category $i",
+        ];
+    }
+    
     $courses = [];
     for ($i = 1; $i <= 9; $i++) {
         $courses[] = [
@@ -19,5 +26,5 @@ Route::get('/course', function () {
         ];
     }
 
-    return view('course', compact('courses'));
+    return view('course', compact('courses', 'categories'));
 })->name('course');
