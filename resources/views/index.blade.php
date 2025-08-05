@@ -12,6 +12,6 @@
         @include('components.landingpage.event')
         @include('components.landingpage.comment')
         @include('components.landingpage.news')
-        @include('components.landingpage.question')
+        @include('components.question')
     </div>
 @endsection

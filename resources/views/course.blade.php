@@ -6,5 +6,6 @@
         @include('components.course.exploreCourse')
         @include('components.course.categories')
         @include('components.course.all')
+        @include('components.question')
     </div>
 @endsection
