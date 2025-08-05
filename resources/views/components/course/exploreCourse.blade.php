@@ -1,18 +1,20 @@
 <div class="bg-primary px-5 py-10">
     <div class="max-w-7xl mx-auto space-y-6">
         <!-- Header + Navigasi Mobile -->
-        <div class="flex justify-between items-center lg:block">
+        <div class="">
             <h1 class="text-lg lg:text-xl font-semibold text-white mb-5">Explore Courses by Categories</h1>
-            <div class="flex items-center gap-3 mb-5">
-                <button class="px-4 py-2 text-sm rounded-full bg-white text-sec-grey">All</button>
-                <button class="px-4 py-2 text-sm rounded-full text-white border border-white">Category 1</button>
-                <button class="px-4 py-2 text-sm rounded-full text-white border border-white">Category 2</button>
-                <button class="px-4 py-2 text-sm rounded-full text-white border border-white">Category 3</button>
-                <button class="px-4 py-2 text-sm rounded-full text-white border border-white">Category 4</button>
-                <button class="px-4 py-2 text-sm rounded-full text-white border border-white">Category 5</button>
-                <button class="px-4 py-2 text-sm rounded-full text-white border border-white">Category 6</button>
-                <button class="px-4 py-2 text-sm rounded-full text-white border border-white">Category 7</button>
-                <button class="px-4 py-2 text-sm rounded-full text-white border border-white">Category 8</button>
+            <div class="mb-5 overflow-x-auto lg:overflow-visible">
+                <div class="flex items-center gap-3 w-max min-w-full lg:flex-wrap">
+                    <button class="px-4 py-2 text-sm rounded-full bg-white text-sec-grey">All</button>
+                    <button class="px-4 py-2 text-sm rounded-full text-white border border-white">Category 1</button>
+                    <button class="px-4 py-2 text-sm rounded-full text-white border border-white">Category 2</button>
+                    <button class="px-4 py-2 text-sm rounded-full text-white border border-white">Category 3</button>
+                    <button class="px-4 py-2 text-sm rounded-full text-white border border-white">Category 4</button>
+                    <button class="px-4 py-2 text-sm rounded-full text-white border border-white">Category 5</button>
+                    <button class="px-4 py-2 text-sm rounded-full text-white border border-white">Category 6</button>
+                    <button class="px-4 py-2 text-sm rounded-full text-white border border-white">Category 7</button>
+                    <button class="px-4 py-2 text-sm rounded-full text-white border border-white">Category 8</button>
+                </div>
             </div>
         </div>
 
