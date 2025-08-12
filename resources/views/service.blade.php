@@ -2,7 +2,8 @@
 
 @section('content')
     <div class="">
-        @include('components.landingpage.hero')
+        @include('components.servicePage.hero')
+        @include('components.servicePage.serviceInfo')
         @include('components.question')
     </div>
 @endsection
