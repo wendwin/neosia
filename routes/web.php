@@ -32,3 +32,7 @@ Route::get('/course', function () {
 Route::get('/course-detail', function () {
     return view('courseDetail');
 })->name('course-detail');
+
+Route::get('/service', function () {
+    return view('service');
+})->name('service');
