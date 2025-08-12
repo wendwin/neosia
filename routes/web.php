@@ -28,3 +28,7 @@ Route::get('/course', function () {
 
     return view('course', compact('courses', 'categories'));
 })->name('course');
+
+Route::get('/course-detail', function () {
+    return view('courseDetail');
+})->name('course-detail');
