@@ -1,5 +1,5 @@
 <div class="" x-data="{ isOpen: false }">
-    <nav class="bg-primary shadow-md fixed top-0 left-0 right-0 z-40 py-2 w-full">
+    <nav class="bg-primary shadow-md fixed top-0 left-0 right-0 z-50 py-2 w-full">
         <div class="mx-auto max-w-8xl px-4 ">
             <div class="flex h-16 items-center justify-between">
                 <div class="flex items-center justify-between w-full">
