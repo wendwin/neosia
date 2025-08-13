@@ -1,7 +1,7 @@
 @php
     $slides = range(1, 4);
 @endphp
-<div class="relative w-full bg-primary text-white py-16">
+<div class="relative w-full bg-primary text-white py-16 overflow-hidden">
     <div class="" data-aos="fade-up">
         <h1 class="mb-4 text-center font-medium text-xl md:text-2xl lg:text-4xl">What Clients Say About Us</h1>
         <p class="mb-40 md:mb-12 text-center text-base md:text-xl">Etiam Porttitor risus massa nec condiment gravisa nibh.</p>
@@ -94,6 +94,9 @@
             </div>
         </div>
     </div>
+
+    <img class="hidden md:block md:absolute bottom-0 -left-20" draggable="false" src="{{ asset('img/ellipse left hero.png') }}" alt="">
+    <img class="hidden md:block md:absolute bottom-0 -right-20"draggable="false" src="{{ asset('img/ellipse right hero.png') }}" alt="">
 </div>
 
 

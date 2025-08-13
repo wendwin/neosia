@@ -1,4 +1,4 @@
-<div class="relative w-full bg-primary text-white px-4 py-16">
+<div class="relative w-full bg-primary text-white px-4 py-16 overflow-hidden ">
     <div class="" data-aos="fade-up">
         <h1 class="mb-4 text-center font-medium text-xl md:text-2xl lg:text-4xl">Meet our team in Neosia</h1>
         <p class="mb-12 text-center text-base md:text-xl">Etiam porttitor risus massa nec condiment gravida</p>
@@ -27,4 +27,7 @@
             </div>
         </div>
     </div>
+
+    <img class="hidden md:block md:absolute md:-top-0 lg:-top-60 -left-10 max-w-sm" draggable="false" src="{{ asset('img/ellipse left.png') }}" alt="">
+    <img class="hidden md:block md:absolute md:-top-0 lg:-top-60 -right-10 max-w-sm"draggable="false" src="{{ asset('img/ellipse right.png') }}" alt="">
 </div>
