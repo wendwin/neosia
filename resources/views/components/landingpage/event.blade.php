@@ -1,6 +1,6 @@
 <div class="relative w-full bg-sec-grey text-white py-16">
-    <h1 class="mb-4 text-center font-medium text-xl md:text-2xl lg:text-3xl">Public event join our Upcoming</h1>
-    <p class="mb-12 text-center">Etiam Porttitor risus massa nec condiment gravisa nibh</p>
+    <h1 class="mb-4 text-center font-medium text-xl md:text-2xl lg:text-4xl">Public Event Join Our Upcoming</h1>
+    <p class="mb-12 text-center text-base md:text-xl">Etiam Porttitor risus massa nec condiment gravisa nibh</p>
 
     <!-- card program -->
     <div class="flex flex-wrap gap-0 md:gap-5 lg:gap-8 justify-center pb-4 overflow-hidden">

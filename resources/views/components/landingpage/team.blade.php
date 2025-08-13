@@ -1,6 +1,6 @@
 <div class="relative w-full bg-primary text-white px-4 py-16">
-    <h1 class="mb-4 text-center font-medium text-xl md:text-2xl">Meet our team in Neosia</h1>
-    <p class="mb-12 text-center">Etiam porttitor risus massa nec condiment gravida</p>
+    <h1 class="mb-4 text-center font-medium text-xl md:text-2xl lg:text-4xl">Meet our team in Neosia</h1>
+    <p class="mb-12 text-center text-base md:text-xl">Etiam porttitor risus massa nec condiment gravida</p>
 
     <!-- card program -->
     <div class="overflow-x-auto md:overflow-visible px-4 p-5">

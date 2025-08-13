@@ -1,5 +1,5 @@
 <div class="bg-primary w-full py-16">
-    <h1 class="font-medium text-2xl text-white text-center mb-10 max-w-xl mx-auto">These Are Some of the Amazing Products We’ve Proudly
+    <h1 class="font-medium text-xl md:text-2xl lg:text-4xl text-white text-center mb-10 max-w-2xl mx-auto">These Are Some of the Amazing Products We’ve Proudly
         Helped Bring to Life</h1>
     <div class="flex flex-wrap justify-center gap-5">
         @foreach (range(1, 6) as $index)

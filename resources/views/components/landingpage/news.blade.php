@@ -1,5 +1,5 @@
 <div class="relative w-full bg-sec-grey text-white py-16">
-    <h1 class="mb-12 text-center font-medium text-xl md:text-2xl lg:text-3xl">Check out our latest news</h1>
+    <h1 class="mb-12 text-center font-medium text-xl md:text-2xl lg:text-4xl">Check Out Our Latest News</h1>
 
     <!-- card program -->
     <div class="flex flex-wrap gap-0 md:gap-5 lg:gap-8 justify-center overflow-hidden">

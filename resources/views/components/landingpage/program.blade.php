@@ -1,6 +1,6 @@
 <div class="relative w-full bg-sec-grey text-white px-4 py-12">
     {{-- <div class="absolute top-0 left-[50%]  flex flex-col justify-center h-1 w-[200px] bg-sec-yellow"></div> --}}
-    <h1 class="p-4 mb-8 text-center font-medium text-xl md:text-2xl">Explore Our Programs</h1>
+    <h1 class="p-4 mb-8 text-center font-medium text-xl md:text-2xl lg:text-4xl">Explore Our Programs</h1>
 
     <!-- card program -->
     <div class="overflow-x-auto md:overflow-visible">
