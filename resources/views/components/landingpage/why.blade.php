@@ -3,13 +3,13 @@
     <div class="absolute top-0 right-0 h-1 w-1/6 bg-sec-yellow"></div>
 
     <!-- Gambar -->
-    <div class="relative flex">
+    <div class="relative flex" data-aos="fade-right">
         <img src="{{ asset('img/why.png') }}" alt="why" class="w-full h-auto object-contain" />
         <div class="absolute bottom-0 right-0 h-1 w-2/6 bg-sec-yellow md:hidden"></div>
     </div>
 
     <!-- Konten -->
-    <div class="flex flex-col justify-center px-4 py-10 md:mx-auto lg:max-w-lg">
+    <div class="flex flex-col justify-center px-4 py-10 md:mx-auto lg:max-w-lg" data-aos="fade-left">
         <div class="mb-8">
             <h1 class="mb-6 text-2xl font-medium lg:text-4xl">
                 Why Choose Neosia Training Center ?
