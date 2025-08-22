@@ -31,7 +31,8 @@
                                 <h3 class="font-semibold text-base">{{ $course['title'] }}</h3>
                                 <p class="text-sm leading-5">{{ $course['description'] }}</p>
                                 <div class="flex items-center gap-3">
-                                    <img class="w-6 h-6 rounded-full" src="{{ asset('img/course/profile.png') }}" alt="">
+                                    <img class="w-6 h-6 rounded-full" src="{{ asset('img/course/profile.png') }}"
+                                        alt="">
                                     <p class="text-sm">{{ $course['instructor'] }}</p>
                                 </div>
                                 <div class="flex items-center gap-3">
@@ -46,7 +47,8 @@
                                     </div>
                                 </div>
                                 <div class="flex justify-between items-center">
-                                    <p class="text-base font-semibold">Rp {{ number_format($course['price'], 0, ',', '.') }}</p>
+                                    <p class="text-base font-semibold">Rp
+                                        {{ number_format($course['price'], 0, ',', '.') }}</p>
                                     <a href="#" class="inline-flex items-center gap-1 hover:text-sec-yellow">
                                         <span>Read More</span>
                                         <ion-icon name="arrow-forward-outline"></ion-icon>
@@ -64,38 +66,46 @@
                     <div class="flex transition-transform duration-500 ease-in-out" style="transform: translateX(0%)"
                         data-featured-desktop-track>
                         @foreach ($courses as $course)
-                            <div class="min-w-[18rem] max-w-64 mx-2">
-                                <div class="rounded-2xl shadow-xs bg-sec-grey">
-                                    <img alt="" src="{{ asset($course['image']) }}"
-                                        class="h-52 w-full rounded-2xl object-cover" />
-                                    <div class="text-white p-5 space-y-3">
-                                        <h3 class="font-semibold text-base">{{ $course['title'] }}</h3>
-                                        <p class="text-sm leading-5">{{ $course['description'] }}</p>
-                                        <div class="flex items-center gap-3">
-                                            <img class="w-6 h-6 rounded-full" src="{{ asset('img/course/profile.png') }}" alt="">
-                                            <p class="text-sm">{{ $course['instructor'] }}</p>
-                                        </div>
-                                        <div class="flex items-center gap-3">
-                                            <div class="flex items-center gap-1">
-                                                <ion-icon name="star" class="text-amber-400"></ion-icon><span>4,9</span>
+                            <a href="/course-detail">
+                                <div class="min-w-[18rem] max-w-64 mx-2">
+                                    <div class="rounded-2xl shadow-xs bg-sec-grey">
+                                        <img alt="" src="{{ asset($course['image']) }}"
+                                            class="h-52 w-full rounded-2xl object-cover" />
+                                        <div class="text-white p-5 space-y-3">
+                                            <h3 class="font-semibold text-base">{{ $course['title'] }}</h3>
+                                            <p class="text-sm leading-5">{{ $course['description'] }}</p>
+                                            <div class="flex items-center gap-3">
+                                                <img class="w-6 h-6 rounded-full"
+                                                    src="{{ asset('img/course/profile.png') }}" alt="">
+                                                <p class="text-sm">{{ $course['instructor'] }}</p>
                                             </div>
-                                            <div class="flex items-center gap-1">
-                                                <ion-icon name="heart" class="text-red-600"></ion-icon><span>18.400</span>
+                                            <div class="flex items-center gap-3">
+                                                <div class="flex items-center gap-1">
+                                                    <ion-icon name="star"
+                                                        class="text-amber-400"></ion-icon><span>4,9</span>
+                                                </div>
+                                                <div class="flex items-center gap-1">
+                                                    <ion-icon name="heart"
+                                                        class="text-red-600"></ion-icon><span>18.400</span>
+                                                </div>
+                                                <div class="flex items-center gap-1">
+                                                    <ion-icon name="people"
+                                                        class="text-white"></ion-icon><span>365</span>
+                                                </div>
                                             </div>
-                                            <div class="flex items-center gap-1">
-                                                <ion-icon name="people" class="text-white"></ion-icon><span>365</span>
+                                            <div class="flex justify-between items-center">
+                                                <p class="text-base font-semibold">Rp
+                                                    {{ number_format($course['price'], 0, ',', '.') }}</p>
+                                                <a href="#"
+                                                    class="inline-flex items-center gap-1 hover:text-sec-yellow">
+                                                    <span>Read More</span>
+                                                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                                                </a>
                                             </div>
-                                        </div>
-                                        <div class="flex justify-between items-center">
-                                            <p class="text-base font-semibold">Rp {{ number_format($course['price'], 0, ',', '.') }}</p>
-                                            <a href="#" class="inline-flex items-center gap-1 hover:text-sec-yellow">
-                                                <span>Read More</span>
-                                                <ion-icon name="arrow-forward-outline"></ion-icon>
-                                            </a>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </a>
                         @endforeach
                     </div>
                 </div>
@@ -117,7 +127,7 @@
 
 <script>
     // Desktop Carousel
-    (function () {
+    (function() {
         const track = document.querySelector('[data-featured-desktop-track]');
         if (!track) return;
 
@@ -152,7 +162,7 @@
     })();
 
     // Mobile Carousel
-    (function () {
+    (function() {
         const track = document.querySelector('[data-featured-mobile-track]');
         if (!track) return;
 
@@ -167,12 +177,18 @@
 
         prev.addEventListener('click', () => {
             currentScroll = Math.max(currentScroll - (cardWidth + 16), 0);
-            track.scrollTo({ left: currentScroll, behavior: 'smooth' });
+            track.scrollTo({
+                left: currentScroll,
+                behavior: 'smooth'
+            });
         });
 
         next.addEventListener('click', () => {
             currentScroll = Math.min(currentScroll + (cardWidth + 16), maxScroll);
-            track.scrollTo({ left: currentScroll, behavior: 'smooth' });
+            track.scrollTo({
+                left: currentScroll,
+                behavior: 'smooth'
+            });
         });
     })();
 </script>
