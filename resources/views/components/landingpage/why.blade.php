@@ -9,7 +9,7 @@
     </div>
 
     <!-- Konten -->
-    <div class="flex flex-col justify-center px-4 py-10 md:mx-auto lg:max-w-lg">
+    <div class="flex flex-col justify-center px-4 py-10 md:mx-auto lg:max-w-lg"  data-aos="fade-up">
         <div class="mb-8">
             <h1 class="mb-6 text-2xl font-medium lg:text-4xl">
                 Why Choose Neosia Training Center ?

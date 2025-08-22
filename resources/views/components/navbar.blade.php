@@ -1,10 +1,10 @@
 <div class="" x-data="{ isOpen: false }">
-    <nav class="bg-primary shadow-md fixed top-0 left-0 right-0 z-40 py-2 w-full">
+    <nav class="bg-primary shadow-md fixed top-0 left-0 right-0 z-50 py-2 w-full">
         <div class="mx-auto max-w-8xl px-4 ">
             <div class="flex h-16 items-center justify-between">
                 <div class="flex items-center justify-between w-full">
                     <div class="shrink-0">
-                        <a href="#">
+                        <a href="/">
                             <img class="" src="{{ asset('img/logo.png') }}" alt="Neosia Logo" />
                         </a>
                     </div>
@@ -24,7 +24,7 @@
                         </a>
 
                         <div class="relative group">
-                            <a href="#" id="dropdownHoverButton"
+                            <a href="/course" id="dropdownHoverButton"
                                 class="rounded-full px-3 py-2 text-sm font-medium flex items-center gap-1
                                 {{ request()->routeIs('courses') ? 'text-sec-yellow' : 'text-sec-white' }}">
                                 Courses
@@ -40,26 +40,26 @@
                                 class="absolute z-10 hidden group-hover:block bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 ">
                                 <ul class="py-2 text-sm text-gray-700">
                                     <li>
-                                        <a href="#" class="block px-4 py-2 hover:bg-gray-100">Dashboard</a>
+                                        <a href="#" class="block px-4 py-2 hover:bg-gray-100">Courses 1</a>
                                     </li>
                                     <li>
-                                        <a href="#" class="block px-4 py-2 hover:bg-gray-100">Settings</a>
+                                        <a href="#" class="block px-4 py-2 hover:bg-gray-100">Courses 2</a>
                                     </li>
                                     <li>
-                                        <a href="#" class="block px-4 py-2 hover:bg-gray-100">Earnings</a>
+                                        <a href="#" class="block px-4 py-2 hover:bg-gray-100">Courses 3</a>
                                     </li>
                                     <li>
-                                        <a href="#" class="block px-4 py-2 hover:bg-gray-100">Sign out</a>
+                                        <a href="#" class="block px-4 py-2 hover:bg-gray-100">Courses 4</a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
 
                         <div class="relative group">
-                            <a href="#" id="dropdownHoverButton"
+                            <a href="/service" id="dropdownHoverButton"
                                 class="rounded-full px-3 py-2 text-sm font-medium flex items-center gap-1
-                                {{ request()->routeIs('course') ? 'text-sec-yellow' : 'text-sec-white' }}">
-                                Course
+                                {{ request()->routeIs('service') ? 'text-sec-yellow' : 'text-sec-white' }}">
+                                Service
                                 <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                                     fill="none" viewBox="0 0 10 6">
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -72,48 +72,10 @@
                                 class="absolute z-10 hidden group-hover:block bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 ">
                                 <ul class="py-2 text-sm text-gray-700">
                                     <li>
-                                        <a href="#" class="block px-4 py-2 hover:bg-gray-100">Dashboard</a>
+                                        <a href="#" class="block px-4 py-2 hover:bg-gray-100">Service 1</a>
                                     </li>
                                     <li>
-                                        <a href="#" class="block px-4 py-2 hover:bg-gray-100">Settings</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="block px-4 py-2 hover:bg-gray-100">Earnings</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="block px-4 py-2 hover:bg-gray-100">Sign out</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="relative group">
-                            <a href="#" id="dropdownHoverButton"
-                                class="rounded-full px-3 py-2 text-sm font-medium flex items-center gap-1
-                                {{ request()->routeIs('layanan') ? 'text-sec-yellow' : 'text-sec-white' }}">
-                                Layanan
-                                <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                                    fill="none" viewBox="0 0 10 6">
-                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                        stroke-width="2" d="m1 1 4 4 4-4" />
-                                </svg>
-                            </a>
-
-                            <!-- Dropdown -->
-                            <div id="dropdownHover"
-                                class="absolute z-10 hidden group-hover:block bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 ">
-                                <ul class="py-2 text-sm text-gray-700">
-                                    <li>
-                                        <a href="#" class="block px-4 py-2 hover:bg-gray-100">Dashboard</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="block px-4 py-2 hover:bg-gray-100">Settings</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="block px-4 py-2 hover:bg-gray-100">Earnings</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="block px-4 py-2 hover:bg-gray-100">Sign out</a>
+                                        <a href="#" class="block px-4 py-2 hover:bg-gray-100">Service 1</a>
                                     </li>
                                 </ul>
                             </div>
@@ -136,16 +98,11 @@
                                 class="absolute z-10 hidden group-hover:block bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 ">
                                 <ul class="py-2 text-sm text-gray-700">
                                     <li>
-                                        <a href="#" class="block px-4 py-2 hover:bg-gray-100">Dashboard</a>
+                                        <a href="#" class="block px-4 py-2 hover:bg-gray-100">Product 1</a>
                                     </li>
                                     <li>
-                                        <a href="#" class="block px-4 py-2 hover:bg-gray-100">Settings</a>
+                                        <a href="#" class="block px-4 py-2 hover:bg-gray-100">Product 2</a>
                                     </li>
-                                    <li>
-                                        <a href="#" class="block px-4 py-2 hover:bg-gray-100">Earnings</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="block px-4 py-2 hover:bg-gray-100">Sign out</a>
                                     </li>
                                 </ul>
                             </div>
@@ -187,7 +144,7 @@
                             class="rounded-full px-3 py-2 text-sm font-medium flex items-center gap-1
                             {{ request()->routeIs('certificate') ? 'text-sec-yellow' : 'text-sec-white' }}
                             ">
-                            <i data-lucide="phone" class="w-5 h-5"></i>Certificate
+                            <i data-lucide="phone" class="w-5 h-5"></i>Check Certificate
                         </a>
                         <a href=""
                             class="rounded-full px-3 py-2 text-sm font-medium flex items-center gap-1

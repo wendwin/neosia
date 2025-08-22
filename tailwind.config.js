@@ -22,6 +22,9 @@ export default {
       },
     },
   },
+  safelist: [
+    'bg-clip-text'
+  ],  
   plugins: [],
 }
 
